@@ -1,0 +1,81 @@
+[
+{
+    "id": 1 ,
+    "title":"January elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 2200.00",
+    "date":"Tuesday , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+
+},
+
+{
+    "id": 2,
+    "title":"Febrary elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 4200.00",
+    "date":"Wednesay , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+
+},
+
+{
+    "id": 3,
+    "title":"January elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 2200.00",
+    "date":"Tuesday , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+    
+},
+
+{
+    "id": 4 ,
+    "title":"January elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 2200.00",
+    "date":"Tuesday , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+    
+},
+
+{
+    "id": 5 ,
+    "title":"Januajnjnkjkjxnry elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 2200.00",
+    "date":"Tuesday , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+
+},
+
+{
+    "id": 6,
+    "title":"Febrary elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 4200.00",
+    "date":"Wednesay , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+
+},
+
+{
+    "id": 7,
+    "title":"January elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 2200.00",
+    "date":"Tuesday , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+
+},
+
+{
+    "id": 8 ,
+    "title":"January elec bill" ,
+    "category":"Electricity Bill",
+    "cost":"Rs. 2200.00",
+    "date":"Tuesday , 10/05/2021",
+    "note":"here is bill for all the houses in the people"
+
+}
+        ]

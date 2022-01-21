@@ -1,0 +1,268 @@
+.transaction-pop-up{
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(0,0,0,.4);
+   
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.inside-add-transaction{
+  width: 70%;
+  position: relative;
+  
+  
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+  border-radius: 10px;
+  background-color:white ;
+  display: block;
+padding-bottom: 40px;
+
+ }
+
+ .header{
+
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom:15px ;
+    text-align: left;
+    opacity: 1;
+ }
+
+ hr{
+
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .middle-top{
+
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% ;
+    align-content: space-between;
+    
+ }
+
+ 
+ title{
+
+    display: flex;
+    font-size: small;
+ }
+
+ .input-title{
+
+    float: left;
+ }
+
+ input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(175, 175, 175);
+  }
+
+  input[type=button] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    
+  }
+
+
+  input[type=text]:focus{
+      outline: none;
+    
+  }
+
+
+ .title-container{
+
+    border: 0.5px solid rgb(118, 118, 118);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+ .title-container:hover{
+    cursor: pointer;
+    border: 0.5px solid black;
+    -o-transition: 1s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;   
+ }
+
+ .category-container{
+
+    border: 0.5px solid rgb(118, 118, 118);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+ .category-container:hover{
+    cursor: pointer;
+    border: 0.5px solid black;
+    -o-transition: 1s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;   
+ }
+
+ .amount-container{
+
+    border: 0.5px solid rgb(118, 118, 118);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+ .amount-container:hover{
+    cursor: pointer;
+    border: 0.5px solid black;
+    -o-transition: 1s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;   
+ }
+ .middle-bottom{
+
+    display: flex;
+    width: 100%;
+   
+    
+ }
+ .description-bottom{
+    width: 100%;
+    border: 0.5px solid rgb(118, 118, 118);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+ }
+
+ .description-bottom:hover{
+    cursor: pointer;
+    border: 0.5px solid black;
+    -o-transition: 1s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;   
+ }
+
+.bottom-button{
+
+    margin-bottom: 10px;
+  
+
+}
+ .inside-cancel-button {
+
+    padding: 10px;
+    margin-right: 5px;
+    width: 80px;
+    float:right;
+    border-style: none;
+  
+    border-radius: 3px;
+    background-color: #919191;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+    
+ }
+ .inside-cancel-button:hover {
+    cursor: pointer;  
+
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+
+
+ .inside-add-button{
+
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 80px;
+    float:right ;
+    border-style: none;
+  
+    border-radius: 3px;
+    background-color: #fe4a49;
+    color: #000;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+ }
+
+
+ .inside-add-button:hover {
+    cursor: pointer;  
+   
+    background-color: #001730;
+    
+    color: white;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+ 
+
+ 
