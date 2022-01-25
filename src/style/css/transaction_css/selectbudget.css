@@ -1,0 +1,52 @@
+.budget-container-wrapper {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    justify-content: space-between;
+    border: none;
+    background-color: white;
+}
+
+.inside_single_budget_container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.inside_single_budget_container:hover {
+    background-color: rgb(93, 93, 84);
+    color: white;
+    -o-transition: 1s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.budget_name {
+    padding-left: 20px;
+    font-size: small;
+    letter-spacing: 0.8px;
+}
+
+.budget_date {
+    font-size: smaller;
+    padding-right: 20px;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
