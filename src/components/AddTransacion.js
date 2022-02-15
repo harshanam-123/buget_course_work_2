@@ -26,11 +26,12 @@ const AddTransaction = props => {
         const blog = {title , category , cost , date ,budget_name} ;
         console.log(blog);
 
-        fetch('http://localhost:8000/history' ,{
+        fetch('http://localhost:8000/history/' ,{
 
         method : 'POST' ,
-        headers : {"Content-Type":"application/json"},
-        body :JSON.stringify(blog)
+       // headers : {"Content-Type":"application/json"},
+        //body :JSON.stringify(blog)
+        body:JSON.stringify(blog)
         }).then(()=>{
             console.log('new blog added') ;
             setpending(false);
@@ -99,7 +100,7 @@ const AddTransaction = props => {
                         <div className="amount-container">
                             <title>Amout :</title>
                             <input type="number"
-                             className="input-title"
+                             className="input-title" 
                              refs="phone"
                              required
                              value = {cost}

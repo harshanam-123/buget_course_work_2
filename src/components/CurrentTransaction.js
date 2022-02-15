@@ -14,6 +14,7 @@ import useFetch from '../usefetch';
 const CurrentTransaction = () => {
 
   const {transactionlist, error} = useFetch('http://localhost:8000/history/' );
+  console.log(transactionlist);
 
   const deletetransaction=(id)=>{
    console.log(id) ;

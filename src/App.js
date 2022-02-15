@@ -5,7 +5,7 @@ import './style/css/navigation.css';
 import AddTransaction from './components/AddTransacion';
 import TransactionSection from './components/transaction-section';  
 import BudgetList from "./components/budgetlist";
-import CategoryList from "./components/categorylist";
+import CategoryList from "./components/category/categorylist";
 import CurrentTransaction from "./components/CurrentTransaction";
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom' ;
 import {Link} from 'react-router-dom';

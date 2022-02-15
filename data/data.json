@@ -44,75 +44,25 @@
   "expenses": [
     {
       "title": "Electricity Bill",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
+      "created_date": "2/15/2022, 10:42:39 PM",
+      "description": "To the account 4578459",
+      "recurrance_status": false,
+      "allocation": "",
+      "current_allocation": null,
+      "category_re_state": "not a Recurring Transaction",
       "id": 1
-    },
-    {
-      "title": "Water Bill",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 2
-    },
-    {
-      "title": "Fuel",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 3
-    },
-    {
-      "title": "Entertaintment",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 4
-    },
-    {
-      "title": "Food and Bavarages",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 5
-    },
-    {
-      "title": "To Food",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 6
-    },
-    {
-      "title": "Electricity Bill",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 7
     }
   ],
   "income": [
     {
       "title": "Salary",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 1
-    },
-    {
-      "title": "private business",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
+      "created_date": "2/15/2022, 10:43:38 PM",
+      "description": "Monthly salary from KK company",
+      "recurrance_status": true,
+      "allocation": "50000",
+      "current_allocation": null,
+      "category_re_state": "a Recurring Transaction",
       "id": 2
-    },
-    {
-      "title": "Cultivation",
-      "description": "fefsdf dscs sdsf",
-      "allocation": null,
-      "current_allocation": "1000",
-      "id": 3
     }
   ],
   "budget": [

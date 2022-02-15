@@ -71,7 +71,7 @@ import ExpenseList from './expenselist';
                             required
                             placeholder='Enter a name for budget....'
                             value={budget_title}
-                           onChange={(e) => setbudgettitle(e.target.value)} 
+                            onChange={(e) => setbudgettitle(e.target.value)} 
                             
                             />
                     </div>
